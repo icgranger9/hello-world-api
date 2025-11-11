@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from api import api
+from src.api import api
 
 API_TITLE = "Hello World API"
 API_PREFIX = "/api"

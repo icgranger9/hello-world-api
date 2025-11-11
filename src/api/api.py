@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from api.routes import greetings, health
+from src.api.routes import greetings, health
 
 router = APIRouter()
 router.include_router(health.router)
